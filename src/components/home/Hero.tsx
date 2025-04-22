@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -24,9 +25,9 @@ const Hero = () => {
           </div>
           <div className="order-1 md:order-2 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <img 
-              src="https://images.unsplash.com/photo-1585803114088-cd027272106a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-              alt="Logistics Services" 
-              className="rounded-lg shadow-lg w-full h-auto object-cover"
+              src="https://images.unsplash.com/photo-1577642147838-fbc21029d76b?auto=format&fit=crop&q=80&w=1470" 
+              alt="Modern Logistics Services" 
+              className="rounded-lg shadow-lg w-full h-auto object-cover transform hover:scale-105 transition-all duration-300"
             />
           </div>
         </div>
